@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+:root {
+    /* Font sizes */
+    --base-font-size-desktop: 18px;
+    --base-font-size-mobile: 16px;
+
+    --header-h1-font-size-desktop: 50px;
+    --header-h1-font-size-mobile: 34px;
+
+    --header-h2-font-size: 32px;
+    --header-h3-font-size: 24px;
+    --header-h4-font-size: 16px;
+
+    --paragraph-font-size-desktop: 18px;
+    --paragraph-font-size-mobile: 16px;
+
+    --caption-font-size-desktop: 14px;
+    --caption-font-size-mobile: 12px;
+
+    --link-font-size: 16px;
+
+    /* Colors */
+    --soft-blue: #5468E7;
+    --soft-violet: #f6f0ff;
+    --dark-blue: #232340;
+    --desaturated-blue: #77a9c7;
+    --off-white: #f7f9fa;
+    --light-orange: #ff9d00;
+
+    --border-size: 2px;
+    --box-width: 36em;
+    --box-height: 8em;
+    --dash-size: 1em;
+
+}
+
+* {
+
+    font-family: 'DM Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid #000000; */
+}
+
+body{
+    font-family: DM;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 41px;
+}
+
+
+
+.nav-container {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.hero-container {
+    width: 100%;
+}
+
+.image-background-remover {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
+
+
+.btn-download {
+    color: white;
+    display: inline-flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #8C50D7;
+}
+.btn-download:hover {
+    opacity: 0.8;
+     
+}
+
+
+.btn-upload{
+    color: white;
+    display: inline-flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #000000;
+
+}
+.background-image {
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.remove-bg__content{
+    width: 100%;
+    max-width: 847px;;
+}
+.file-upload{
+    width: 100%;
+    max-width: 542px;
+    border: #000000 2px solid;
+    border-style: dashed;
+    border-radius: 16px;
+}
+.footer {
+    background: var(--dark-blue);
+    height: auto;
+    flex-direction: column;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+}
+
+
+.footer__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    width: 360px;
+
+}
+
+.logo__description {
+    width: 100%;
+    font-size: var(--caption-font-size-desktop);
+    color: var(--off-white);
+    margin-bottom: 0;
+}
+.link__footer{
+    display: flex;
+    color: var(--off-white);
+}
