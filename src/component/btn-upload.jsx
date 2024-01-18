@@ -1,7 +1,10 @@
-const BtnUpload = () => {
+
+
+const BtnUpload = ({link}) => {
+
     return (
         <>
-            <button className='btn-upload'>
+            <a className='btn-upload' href={link}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                     <g clipPath="url(#clip0_20_449)">
                         <path d="M9 12H15" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -15,9 +18,10 @@ const BtnUpload = () => {
                     </defs>
                 </svg>
                 Upload another file
-            </button>
+            </a>
         </>
     );
 }
 
 export default BtnUpload;
+

@@ -6,7 +6,6 @@ import SkeletonPage from './skeleton';
 import BtnUpload from './btn-upload';
 
 const HeroSection = ({ imageURL, uploadedFiles, loading, getRootProps, getInputProps }) => {
-    console.log(uploadedFiles)
     const [loadingSpinner, setLoadingSpinner] = useState(false);
     const [buttonClicked, setButtonClicked] = useState(false);
     
@@ -76,7 +75,7 @@ const HeroSection = ({ imageURL, uploadedFiles, loading, getRootProps, getInputP
                                 )}
                             </button>
                             <div className='mt-4 mb-28'>
-                                <BtnUpload />
+                                <BtnUpload link="/" />
                             </div>
                         </div>
                     </div>
