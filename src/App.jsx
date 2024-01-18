@@ -34,7 +34,7 @@ const App = () => {
     formData.append('image_file', image);
     formData.append('size', 'auto');
 
-    const apiKey = "4ssphDdTRnqTfVxM8g4w8AEe";
+    const apiKey = import.meta.env.VITE_API_KEY_REMOVE_BG;
 
     try {
       setLoading(true);
@@ -75,6 +75,7 @@ const App = () => {
           getInputProps={getInputProps}
         />
       </main>
+     
       <FooterPage />
     </>
   );

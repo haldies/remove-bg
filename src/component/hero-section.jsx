@@ -119,7 +119,6 @@ const HeroSection = ({ imageURL, uploadedFiles, loading, getRootProps, getInputP
                                     <p className='mt-16 mb-8'>Or Drag n Drop files here . . .</p>
                                 </div>
                             </form>
-
                         </div>
                     </div>
                 )}
